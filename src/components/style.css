@@ -1,0 +1,93 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../components/img/backgrnd.jpg') no-repeat 50% scroll;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;;
+}
+.card-header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+.card-header ul li  span i{
+    position: relative;
+    left: -5px;
+    }
+.card-body {
+        display: flex;
+    }
+.card-body input{
+    border: transparent;
+    }
+.border{
+    border: none;
+    outline:none;
+}
+.gifimg{
+    width: 28px;
+    height: 20px;
+    margin: 0px 10ps;
+    position: relative;
+    top: -2px;
+}
+.text .image{
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.btn button{
+    width: 100%;
+    border-radius: 73px;
+    margin: 10px;
+}
+
+.emoji{
+    font-size: 19px;
+    position: relative;
+    top: -51px;
+    left: 266px;
+}
+
+.giftext{
+    position: relative;
+    top: 410px;
+}
+.searchgif{
+    width: 205%;
+    border-color: blue;
+    border-radius: 25px;
+}
+.fetchcard{
+    position: relative;
+    height: 100vh;
+}
+.fetchbody{
+    height: 68vh;
+}
+.fetchimg{
+    width: 15%;
+    height: 57px;
+    position: relative;
+    top: -13px;
+    left: -30px;
+}
+.textfetch{
+    font-size: 23px;
+    position: relative;
+    left: -25px;
+}
+.fetchimage{
+    position: relative;
+    top: 42px;
+    left: -23px;
+    width: 249px;
+    height: 264px;
+}
